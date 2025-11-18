@@ -1,0 +1,68 @@
+.home-container {
+  padding: 30px;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #5a57ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #4845e6;
+}
+
+.featured-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center; 
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  max-width: 200px;         
+  margin: 0 auto; 
+  
+}
+
+.product-card h4{
+  font-size:20px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: black;
+}
+
+.product-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: contain;
+}
